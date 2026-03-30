@@ -1,4 +1,4 @@
-using BackendApp;
+using BackendApp.AutoGenModels;
 using static System.Console;
 
 WarehouseContext db = new();

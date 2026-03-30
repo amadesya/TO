@@ -3,48 +3,20 @@
   "WorkspaceRootPath": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\marketplaceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\marketplaceorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\warehousecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\warehousecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,144 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Transaction.cs",
-              "RelativeDocumentMoniker": "BackendApp\\Transaction.cs",
-              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Transaction.cs",
-              "RelativeToolTip": "BackendApp\\Transaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:25:31.927Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BackendApp\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BackendApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T17:27:12.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MarketplaceOrder.cs",
-              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\MarketplaceOrder.cs",
-              "RelativeDocumentMoniker": "BackendApp\\MarketplaceOrder.cs",
-              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\MarketplaceOrder.cs",
-              "RelativeToolTip": "BackendApp\\MarketplaceOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:25:09.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Inventory.cs",
-              "RelativeDocumentMoniker": "BackendApp\\Inventory.cs",
-              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Inventory.cs",
-              "RelativeToolTip": "BackendApp\\Inventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:24:35.526Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\appsettings.json",
+              "RelativeDocumentMoniker": "BackendApp\\appsettings.json",
+              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\appsettings.json",
+              "RelativeToolTip": "BackendApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T17:27:09.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Product.cs",
-              "RelativeDocumentMoniker": "BackendApp\\Product.cs",
-              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Product.cs",
-              "RelativeToolTip": "BackendApp\\Product.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswBgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:24:20.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Warehouse.cs",
-              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Warehouse.cs",
-              "RelativeDocumentMoniker": "BackendApp\\Warehouse.cs",
-              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Warehouse.cs",
-              "RelativeToolTip": "BackendApp\\Warehouse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:21:55.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Role.cs",
-              "RelativeDocumentMoniker": "BackendApp\\Role.cs",
-              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Role.cs",
-              "RelativeToolTip": "BackendApp\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:09:57.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Category.cs",
-              "RelativeDocumentMoniker": "BackendApp\\Category.cs",
-              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Category.cs",
-              "RelativeToolTip": "BackendApp\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T19:58:03.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Employee.cs",
-              "RelativeDocumentMoniker": "BackendApp\\Employee.cs",
-              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Employee.cs",
-              "RelativeToolTip": "BackendApp\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T19:56:09.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "BackendApp\\WeatherForecast.cs",
-              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\WeatherForecast.cs",
-              "RelativeToolTip": "BackendApp\\WeatherForecast.cs",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BackendApp\\appsettings.Development.json",
+              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\appsettings.Development.json",
+              "RelativeToolTip": "BackendApp\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T19:48:03.962Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T17:27:08.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Program.cs",
               "RelativeDocumentMoniker": "BackendApp\\Program.cs",
               "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Program.cs",
               "RelativeToolTip": "BackendApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T19:47:42.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "WarehouseContext.cs",
-              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\WarehouseContext.cs",
-              "RelativeDocumentMoniker": "BackendApp\\WarehouseContext.cs",
-              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\WarehouseContext.cs",
-              "RelativeToolTip": "BackendApp\\WarehouseContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T19:40:39.244Z",
+              "WhenOpened": "2026-03-30T17:26:53.587Z",
               "EditorCaption": ""
             }
           ]
