@@ -135,3 +135,4 @@ D:\!Study\TO\Project\C#\BackendApp\BackendApp\bin\Debug\net8.0\tr\Microsoft.Code
 D:\!Study\TO\Project\C#\BackendApp\BackendApp\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\!Study\TO\Project\C#\BackendApp\BackendApp\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\!Study\TO\Project\C#\BackendApp\BackendApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\!Study\TO\Project\C#\BackendApp\BackendApp\obj\Debug\net8.0\swae.build.ex.cache
