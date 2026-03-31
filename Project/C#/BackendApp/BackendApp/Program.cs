@@ -1,33 +1,30 @@
+using BackendApp.AutoGenModels;
+using BackendApp.Repositories;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using static System.Console;
-using BackendApp.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers(options =>
-{
-    WriteLine("Default output formatters:");
-    foreach (IOutputFormatter formatter in options.OutputFormatters)
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
     {
-        OutputFormatter? mediaFormatter = formatter as OutputFormatter;
-        if (mediaFormatter is null)
-        {
-            WriteLine($"  {formatter.GetType().Name}");
-        }
-        else
-        {
-            WriteLine(" {0}, Media types: {1}",
-                arg0: mediaFormatter.GetType().Name,
-                arg1: string.Join(", ", mediaFormatter.SupportedMediaTypes));
-        }
-    }
-})
-.AddXmlDataContractSerializerFormatters()
-.AddXmlSerializerFormatters();
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+    });
+
+builder.Services.AddDbContext<WarehouseContext>();
 
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+app.MapControllers();
 app.Run();
 
 

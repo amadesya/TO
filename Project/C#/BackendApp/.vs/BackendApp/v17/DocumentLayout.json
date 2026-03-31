@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\repositories\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\autogenmodels\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\autogenmodels\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\autogenmodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\autogenmodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\autogenmodels\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\autogenmodels\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|d:\\!study\\to\\project\\c#\\backendapp\\backendapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4730C095-41C4-497E-9E75-D57B0492E9F1}|BackendApp\\BackendApp.csproj|solutionrelative:backendapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +58,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "BackendApp\\Repositories\\RoleRepository.cs",
+              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "BackendApp\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T14:28:05.778Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "BackendApp\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "BackendApp\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T14:27:04.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Repositories\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "BackendApp\\Repositories\\IRoleRepository.cs",
+              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Repositories\\IRoleRepository.cs",
+              "RelativeToolTip": "BackendApp\\Repositories\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T14:26:21.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\AutoGenModels\\Product.cs",
+              "RelativeDocumentMoniker": "BackendApp\\AutoGenModels\\Product.cs",
+              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\AutoGenModels\\Product.cs",
+              "RelativeToolTip": "BackendApp\\AutoGenModels\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T14:13:02.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\AutoGenModels\\Role.cs",
+              "RelativeDocumentMoniker": "BackendApp\\AutoGenModels\\Role.cs",
+              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\AutoGenModels\\Role.cs",
+              "RelativeToolTip": "BackendApp\\AutoGenModels\\Role.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T14:13:01.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\AutoGenModels\\Employee.cs",
+              "RelativeDocumentMoniker": "BackendApp\\AutoGenModels\\Employee.cs",
+              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\AutoGenModels\\Employee.cs",
+              "RelativeToolTip": "BackendApp\\AutoGenModels\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T13:47:42.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "BackendApp\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "BackendApp\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T13:47:16.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "BackendApp\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "BackendApp\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T13:19:48.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "BackendApp\\Properties\\launchSettings.json",
@@ -47,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\appsettings.json",
               "RelativeDocumentMoniker": "BackendApp\\appsettings.json",
@@ -55,12 +191,11 @@
               "RelativeToolTip": "BackendApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-30T17:27:09.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T17:27:09.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\appsettings.Development.json",
               "RelativeDocumentMoniker": "BackendApp\\appsettings.Development.json",
@@ -73,13 +208,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Program.cs",
               "RelativeDocumentMoniker": "BackendApp\\Program.cs",
               "ToolTip": "D:\\!Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Program.cs",
               "RelativeToolTip": "BackendApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-30T17:26:53.587Z",
               "EditorCaption": ""

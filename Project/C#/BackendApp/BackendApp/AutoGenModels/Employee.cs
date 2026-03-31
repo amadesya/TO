@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
+using System.Xml.Serialization;
 
 namespace BackendApp.AutoGenModels;
 
@@ -34,6 +35,7 @@ public partial class Employee
 
     [ForeignKey("RoleId")]
     [InverseProperty("Employees")]
+    [XmlIgnore]
     public virtual Role? Role { get; set; }
 
     [InverseProperty("Employee")]
