@@ -14,6 +14,7 @@ builder.Services.AddControllers()
 builder.Services.AddDbContext<WarehouseContext>();
 
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

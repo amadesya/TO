@@ -1,9 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Xml.Serialization;
+using System.Text.Json.Serialization;
 
 namespace BackendApp.AutoGenModels;
 
@@ -22,5 +20,6 @@ public partial class Role
     public string? Description { get; set; }
 
     [InverseProperty("Role")]
+    [JsonIgnore]
     public virtual ICollection<Employee> Employees { get; set; } = new List<Employee>();
 }
