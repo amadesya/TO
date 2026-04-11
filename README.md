@@ -1,3 +1,12 @@
+# Стек
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/9df8e512-23d3-42c0-9781-89d15d67eaa9" width="100" />
+  <img src="https://github.com/user-attachments/assets/b6883fa0-a812-43dc-9361-272e3ad91d04" width="100" />
+  <img src="https://github.com/user-attachments/assets/dc6f93d1-9fff-44d8-a63a-e490848a0baa" width="100" />
+</p>
+
+
+# Внешний вид
 1. Страница товаров
 <img width="1229" height="835" alt="image" src="https://github.com/user-attachments/assets/3628b9ad-e163-4fe8-95e3-9c7fc29ae1ed" />
 
