@@ -364,6 +364,22 @@
     ]
   },
   {
+    "ContainingType": "BackendApp.Controllers.EmployeeController",
+    "Method": "Login",
+    "RelativePath": "api/Employee/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BackendApp.DTO.LoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BackendApp.Controllers.InventoryController",
     "Method": "GetInventory",
     "RelativePath": "api/Inventory",

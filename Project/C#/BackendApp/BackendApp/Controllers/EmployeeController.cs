@@ -1,6 +1,8 @@
 ﻿using BackendApp.AutoGenModels;
+using BackendApp.DTO;
 using BackendApp.Repositories;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BackendApp.Controllers
 {
@@ -10,9 +12,12 @@ namespace BackendApp.Controllers
     {
         private readonly IEmployeeRepository repo;
 
-        public EmployeeController(IEmployeeRepository repo)
+        private readonly WarehouseContext db;
+
+        public EmployeeController(IEmployeeRepository repo, WarehouseContext context)
         {
             this.repo = repo;
+            db = context;
         }
 
         [HttpGet]
@@ -110,6 +115,30 @@ namespace BackendApp.Controllers
                 return BadRequest(
                     $"Employee {id} was found but failed to delete.");
             }
+        }
+
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] LoginRequestDTO request)
+        {
+            var employee = db.Employees.FirstOrDefault(e => e.Email == request.Email);
+
+            if (employee == null)
+            {
+                return Unauthorized(new { message = "Неверный email или пароль" });
+            }
+
+            if (employee.PasswordHash != request.Password)
+            {
+                return Unauthorized(new { message = "Неверный email или пароль" });
+            }
+
+            return Ok(new
+            {
+                Id = employee.Id,
+                FullName = employee.FullName,
+                RoleId = employee.RoleId,
+                message = "Успешный вход"
+            });
         }
     }
 }

@@ -46,8 +46,9 @@ namespace BackendApp.Controllers
             if (inventory == null)
                 return BadRequest("Товар не найден на этом складе.");
 
-            if (inventory.Quantity < request.Quantity)
-                return BadRequest($"Недостаточно товара. Доступно: {inventory.Quantity}, запрошено: {request.Quantity}");
+            int available = (int)(inventory.Quantity - inventory.ReservedQuantity);
+            if (available < request.Quantity)
+                return BadRequest($"Недостаточно товара. Доступно: {available}, запрошено: {request.Quantity}");
 
             var newOrder = new MarketplaceOrder
             {
@@ -59,7 +60,6 @@ namespace BackendApp.Controllers
 
             _context.MarketplaceOrders.Add(newOrder);
 
-            inventory.Quantity -= request.Quantity;
             inventory.ReservedQuantity += request.Quantity;
 
             var transaction = new Transaction

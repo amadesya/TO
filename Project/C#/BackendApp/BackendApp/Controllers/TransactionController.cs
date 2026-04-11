@@ -70,7 +70,7 @@ namespace BackendApp.Controllers
                     inventory = new Inventory
                     {
                         ProductId = dto.ProductId,
-                        WarehouseId = dto.ToWarehouseId,
+                        WarehouseId = dto.ToWarehouseId.Value, // Не забудь .Value
                         Quantity = dto.Quantity,
                         ReservedQuantity = 0
                     };
@@ -78,7 +78,11 @@ namespace BackendApp.Controllers
                 }
                 else
                 {
+                    // Увеличиваем количество
                     inventory.Quantity += dto.Quantity;
+
+                    // ЯВНО ГОВОРИМ БАЗЕ ОБНОВИТЬ ЭТУ ЗАПИСЬ (добавь эту строчку!)
+                    _context.Inventories.Update(inventory);
                 }
             }
 

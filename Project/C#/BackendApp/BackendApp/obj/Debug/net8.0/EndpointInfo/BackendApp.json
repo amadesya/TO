@@ -635,6 +635,37 @@
         }
       }
     },
+    "/api/Employee/login": {
+      "post": {
+        "tags": [
+          "Employee"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequestDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequestDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequestDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Inventory": {
       "get": {
         "tags": [
@@ -1975,19 +2006,19 @@
       "Category": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "integer",
             "format": "int32"
           },
-          "name": {
+          "Name": {
             "type": "string",
             "nullable": true
           },
-          "description": {
+          "Description": {
             "type": "string",
             "nullable": true
           },
-          "products": {
+          "Products": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Product"
@@ -2000,11 +2031,15 @@
       "CategoryDTO": {
         "type": "object",
         "properties": {
-          "name": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Name": {
             "type": "string",
             "nullable": true
           },
-          "description": {
+          "Description": {
             "type": "string",
             "nullable": true
           }
@@ -2014,27 +2049,27 @@
       "CreateOrderRequest": {
         "type": "object",
         "properties": {
-          "orderNumber": {
+          "OrderNumber": {
             "type": "string",
             "nullable": true
           },
-          "marketplace": {
+          "Marketplace": {
             "type": "string",
             "nullable": true
           },
-          "productId": {
+          "ProductId": {
             "type": "integer",
             "format": "int32"
           },
-          "warehouseId": {
+          "WarehouseId": {
             "type": "integer",
             "format": "int32"
           },
-          "employeeId": {
+          "EmployeeId": {
             "type": "integer",
             "format": "int32"
           },
-          "quantity": {
+          "Quantity": {
             "type": "integer",
             "format": "int32"
           }
@@ -2044,32 +2079,32 @@
       "Employee": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "integer",
             "format": "int32"
           },
-          "roleId": {
+          "RoleId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "fullName": {
+          "FullName": {
             "type": "string",
             "nullable": true
           },
-          "email": {
+          "Email": {
             "type": "string",
             "nullable": true
           },
-          "passwordHash": {
+          "PasswordHash": {
             "type": "string",
             "nullable": true
           },
-          "isActive": {
+          "IsActive": {
             "type": "boolean",
             "nullable": true
           },
-          "createdAt": {
+          "CreatedAt": {
             "type": "string",
             "format": "date-time",
             "nullable": true
@@ -2080,34 +2115,34 @@
       "Inventory": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "integer",
             "format": "int32"
           },
-          "productId": {
+          "ProductId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "warehouseId": {
+          "WarehouseId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "quantity": {
+          "Quantity": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "reservedQuantity": {
+          "ReservedQuantity": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "product": {
+          "Product": {
             "$ref": "#/components/schemas/Product"
           },
-          "warehouse": {
+          "Warehouse": {
             "$ref": "#/components/schemas/Warehouse"
           }
         },
@@ -2116,31 +2151,45 @@
       "InventoryDTO": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "integer",
             "format": "int32"
           },
-          "productId": {
+          "ProductId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "warehouseId": {
+          "WarehouseId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "quantity": {
+          "Quantity": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "reservedQuantity": {
+          "ReservedQuantity": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "warehouseName": {
+          "WarehouseName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequestDTO": {
+        "type": "object",
+        "properties": {
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Password": {
             "type": "string",
             "nullable": true
           }
@@ -2150,28 +2199,28 @@
       "MarketplaceOrder": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "integer",
             "format": "int32"
           },
-          "orderNumber": {
+          "OrderNumber": {
             "type": "string",
             "nullable": true
           },
-          "marketplace": {
+          "Marketplace": {
             "type": "string",
             "nullable": true
           },
-          "status": {
+          "Status": {
             "type": "string",
             "nullable": true
           },
-          "orderDate": {
+          "OrderDate": {
             "type": "string",
             "format": "date-time",
             "nullable": true
           },
-          "transactions": {
+          "Transactions": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Transaction"
@@ -2184,23 +2233,23 @@
       "MarketplaceOrderDTO": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "integer",
             "format": "int32"
           },
-          "orderNumber": {
+          "OrderNumber": {
             "type": "string",
             "nullable": true
           },
-          "marketplace": {
+          "Marketplace": {
             "type": "string",
             "nullable": true
           },
-          "status": {
+          "Status": {
             "type": "string",
             "nullable": true
           },
-          "orderDate": {
+          "OrderDate": {
             "type": "string",
             "format": "date-time",
             "nullable": true
@@ -2211,7 +2260,7 @@
       "OrderStatusUpdateDTO": {
         "type": "object",
         "properties": {
-          "status": {
+          "Status": {
             "type": "string",
             "nullable": true
           }
@@ -2248,35 +2297,35 @@
       "Product": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "integer",
             "format": "int32"
           },
-          "name": {
+          "Name": {
             "type": "string",
             "nullable": true
           },
-          "categoryId": {
+          "CategoryId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "costPrice": {
+          "CostPrice": {
             "type": "number",
             "format": "double",
             "nullable": true
           },
-          "category": {
+          "Category": {
             "$ref": "#/components/schemas/Category"
           },
-          "inventories": {
+          "Inventories": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Inventory"
             },
             "nullable": true
           },
-          "transactions": {
+          "Transactions": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Transaction"
@@ -2289,16 +2338,20 @@
       "ProductDTO": {
         "type": "object",
         "properties": {
-          "name": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Name": {
             "type": "string",
             "nullable": true
           },
-          "categoryId": {
+          "CategoryId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "costPrice": {
+          "CostPrice": {
             "type": "number",
             "format": "double",
             "nullable": true
@@ -2309,15 +2362,15 @@
       "Role": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "integer",
             "format": "int32"
           },
-          "name": {
+          "Name": {
             "type": "string",
             "nullable": true
           },
-          "description": {
+          "Description": {
             "type": "string",
             "nullable": true
           }
@@ -2327,11 +2380,11 @@
       "RoleDTO": {
         "type": "object",
         "properties": {
-          "name": {
+          "Name": {
             "type": "string",
             "nullable": true
           },
-          "description": {
+          "Description": {
             "type": "string",
             "nullable": true
           }
@@ -2341,61 +2394,61 @@
       "Transaction": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "integer",
             "format": "int32"
           },
-          "productId": {
+          "ProductId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "fromWarehouseId": {
+          "FromWarehouseId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "toWarehouseId": {
+          "ToWarehouseId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "employeeId": {
+          "EmployeeId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "orderId": {
+          "OrderId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "quantity": {
+          "Quantity": {
             "type": "integer",
             "format": "int32"
           },
-          "transactionType": {
+          "TransactionType": {
             "type": "string",
             "nullable": true
           },
-          "transactionDate": {
+          "TransactionDate": {
             "type": "string",
             "format": "date-time",
             "nullable": true
           },
-          "employee": {
+          "Employee": {
             "$ref": "#/components/schemas/Employee"
           },
-          "fromWarehouse": {
+          "FromWarehouse": {
             "$ref": "#/components/schemas/Warehouse"
           },
-          "order": {
+          "Order": {
             "$ref": "#/components/schemas/MarketplaceOrder"
           },
-          "product": {
+          "Product": {
             "$ref": "#/components/schemas/Product"
           },
-          "toWarehouse": {
+          "ToWarehouse": {
             "$ref": "#/components/schemas/Warehouse"
           }
         },
@@ -2404,30 +2457,30 @@
       "TransactionCreateDTO": {
         "type": "object",
         "properties": {
-          "productId": {
+          "ProductId": {
             "type": "integer",
             "format": "int32"
           },
-          "fromWarehouseId": {
+          "FromWarehouseId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "toWarehouseId": {
+          "ToWarehouseId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "employeeId": {
+          "EmployeeId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
-          "quantity": {
+          "Quantity": {
             "type": "integer",
             "format": "int32"
           },
-          "transactionType": {
+          "TransactionType": {
             "type": "string",
             "nullable": true
           }
@@ -2437,35 +2490,35 @@
       "TransactionDTO": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "integer",
             "format": "int32"
           },
-          "productName": {
+          "ProductName": {
             "type": "string",
             "nullable": true
           },
-          "fromWarehouseName": {
+          "FromWarehouseName": {
             "type": "string",
             "nullable": true
           },
-          "toWarehouseName": {
+          "ToWarehouseName": {
             "type": "string",
             "nullable": true
           },
-          "employeeName": {
+          "EmployeeName": {
             "type": "string",
             "nullable": true
           },
-          "quantity": {
+          "Quantity": {
             "type": "integer",
             "format": "int32"
           },
-          "transactionType": {
+          "TransactionType": {
             "type": "string",
             "nullable": true
           },
-          "transactionDate": {
+          "TransactionDate": {
             "type": "string",
             "format": "date-time",
             "nullable": true
@@ -2476,37 +2529,37 @@
       "Warehouse": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "integer",
             "format": "int32"
           },
-          "name": {
+          "Name": {
             "type": "string",
             "nullable": true
           },
-          "address": {
+          "Address": {
             "type": "string",
             "nullable": true
           },
-          "warehouseType": {
+          "WarehouseType": {
             "type": "string",
             "nullable": true
           },
-          "inventories": {
+          "Inventories": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Inventory"
             },
             "nullable": true
           },
-          "transactionFromWarehouses": {
+          "TransactionFromWarehouses": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Transaction"
             },
             "nullable": true
           },
-          "transactionToWarehouses": {
+          "TransactionToWarehouses": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Transaction"
@@ -2519,15 +2572,19 @@
       "WarehouseDTO": {
         "type": "object",
         "properties": {
-          "name": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Name": {
             "type": "string",
             "nullable": true
           },
-          "address": {
+          "Address": {
             "type": "string",
             "nullable": true
           },
-          "warehouseType": {
+          "WarehouseType": {
             "type": "string",
             "nullable": true
           }
