@@ -1,8 +1,8 @@
 # Стек
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/9df8e512-23d3-42c0-9781-89d15d67eaa9" width="100" />
-  <img src="https://github.com/user-attachments/assets/b6883fa0-a812-43dc-9361-272e3ad91d04" width="100" />
-  <img src="https://github.com/user-attachments/assets/dc6f93d1-9fff-44d8-a63a-e490848a0baa" width="100" />
+  <img src="https://github.com/user-attachments/assets/9df8e512-23d3-42c0-9781-89d15d67eaa9" width="300" />
+  <img src="https://github.com/user-attachments/assets/b6883fa0-a812-43dc-9361-272e3ad91d04" width="300" />
+  <img src="https://github.com/user-attachments/assets/dc6f93d1-9fff-44d8-a63a-e490848a0baa" width="300" />
 </p>
 
 
