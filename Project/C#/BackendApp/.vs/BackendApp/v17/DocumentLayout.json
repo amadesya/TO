@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "BackendApp\\Controllers\\MarketplaceOrderController.cs",
               "ToolTip": "D:\\Study\\TO\\Project\\C#\\BackendApp\\BackendApp\\Controllers\\MarketplaceOrderController.cs",
               "RelativeToolTip": "BackendApp\\Controllers\\MarketplaceOrderController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAADwvywAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvzUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-11T19:29:05.093Z",
               "EditorCaption": ""
@@ -71,8 +71,7 @@
               "RelativeToolTip": "BackendApp\\DTO\\CreateOrderRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T19:28:52.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T19:28:52.338Z"
             },
             {
               "$type": "Document",
@@ -84,8 +83,7 @@
               "RelativeToolTip": "BackendApp\\Controllers\\TransactionController.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAAAE4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T19:08:17.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T19:08:17.833Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "BackendApp\\DTO\\InventoryDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T19:04:29.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T19:04:29.919Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "BackendApp\\DTO\\WarehouseDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T18:57:05.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T18:57:05.97Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "BackendApp\\DTO\\ProductDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T18:39:03.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T18:39:03.889Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "BackendApp\\Controllers\\ProductController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T18:28:52.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T18:28:52.129Z"
             },
             {
               "$type": "Document",
